@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main () {
-  
-  cout << "Hello Class!\n\n";
+int main() {
 
-  return 0;
+	string name;
+
+	cout << "Please enter your name." << endl;
+	cin >>  name;
+	cout << "Hello " << name << ", my name is Jason." << endl;
+
+	system("pause");
+	return 0;
 }
-
